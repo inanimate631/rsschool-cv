@@ -1,0 +1,104 @@
+body{
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 1024px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.avatar{
+    margin: 20px 0 0 95px;
+    height: 204px;
+    width: 204px;
+    border: 10px solid #C8C38C;
+    border-radius: 50%;
+}
+
+.header  {
+    width: 40%;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+.job__title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.menu{
+    width: 40%;
+    background-color:#C8C38C;
+}
+
+.contacts{
+    padding-bottom: 30px;
+}
+
+.menu h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(0, -50%);
+}
+
+.menu__title {
+    width: 160px;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    background-color: #736288;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu__list {
+    list-style: none;
+}
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+.menu__item img{
+    margin: 10px 15px 15px 0;
+    height: 30px;
+}
+
+.skills{
+    padding-bottom: 30px;
+}
+
+.menu__list-skills{
+    margin-left: 50px;
+}
+
+.language{
+
+}
+
+.menu__list-language{
+    margin-left: 50px;
+}
+
+.lvl{
+    list-style: none;
+    padding: 0;
+}
+
+.menu__text{
+    font-weight: 600;
+}
