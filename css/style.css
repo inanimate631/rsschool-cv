@@ -1,6 +1,8 @@
 body{
     color: black;
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 a{
@@ -14,16 +16,29 @@ a{
     box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 }
 
+.colum{
+    display: flex;
+}
+
+.left__content{
+    width: 40%;
+}
+
+.left__content{
+    background-color:#C8C38C;
+}
+
+.header{
+    padding: 30px;
+    background-color: #fff;
+}
+
 .avatar{
-    margin: 20px 0 0 95px;
+    margin: 0 0 0 50px;
     height: 204px;
     width: 204px;
     border: 10px solid #C8C38C;
     border-radius: 50%;
-}
-
-.header  {
-    width: 40%;
 }
 
 .name {
@@ -39,11 +54,6 @@ a{
     margin-top: 20px;
     margin-bottom: 50px;
     letter-spacing: 2px;
-}
-
-.menu{
-    width: 40%;
-    background-color:#C8C38C;
 }
 
 .contacts{
@@ -62,6 +72,8 @@ a{
     padding: 5px 20px;
     background-color: #736288;
     color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -86,10 +98,6 @@ a{
     margin-left: 50px;
 }
 
-.language{
-
-}
-
 .menu__list-language{
     margin-left: 50px;
 }
@@ -101,4 +109,82 @@ a{
 
 .menu__text{
     font-weight: 600;
+}
+
+.right__block{
+    width: 60%;
+    padding: 40px;
+}
+
+.rTitle{
+    display: flex;
+    align-items: center;
+}
+
+.right__title-img{
+    height: 30px;
+    padding-right: 15px;
+}
+
+.section__title{
+    flex: 1;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #C8C38C;
+}
+
+.rText{
+    margin: 0 0 10px 50px;
+    line-height: 25px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.course__list{
+    margin: 0 0 30px 25px;
+}
+
+.course__text + .course__text{
+    margin-top: 10px;
+}
+
+.course__img{
+    margin-left: 80px;
+    border: 2px solid #C8C38C;
+}
+
+.code{
+    margin-left: -320px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-left: 30px;
+    font-size: 0.9rem;
+    background-color: #E4E0BE;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #736288;
+}
+
+.github{
+    display: flex;
+}
+
+.github__icon{
+    margin-right: 15px;
+}
+
+.rsschool__img{
+    width: 152px;
+    height: 26px;
 }
