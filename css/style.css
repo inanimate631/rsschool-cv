@@ -1,0 +1,190 @@
+body{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 1024px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.colum{
+    display: flex;
+}
+
+.left__content{
+    width: 40%;
+}
+
+.left__content{
+    background-color:#C8C38C;
+}
+
+.header{
+    padding: 30px;
+    background-color: #fff;
+}
+
+.avatar{
+    margin: 0 0 0 50px;
+    height: 204px;
+    width: 204px;
+    border: 10px solid #C8C38C;
+    border-radius: 50%;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+.job__title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.contacts{
+    padding-bottom: 30px;
+}
+
+.menu h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(0, -50%);
+}
+
+.menu__title {
+    width: 160px;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    background-color: #736288;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu__list {
+    list-style: none;
+}
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+.menu__item img{
+    margin: 10px 15px 15px 0;
+    height: 30px;
+}
+
+.skills{
+    padding-bottom: 30px;
+}
+
+.menu__list-skills{
+    margin-left: 50px;
+}
+
+.menu__list-language{
+    margin-left: 50px;
+}
+
+.lvl{
+    list-style: none;
+    padding: 0;
+}
+
+.menu__text{
+    font-weight: 600;
+}
+
+.right__block{
+    width: 60%;
+    padding: 40px;
+}
+
+.rTitle{
+    display: flex;
+    align-items: center;
+}
+
+.right__title-img{
+    height: 30px;
+    padding-right: 15px;
+}
+
+.section__title{
+    flex: 1;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #C8C38C;
+}
+
+.rText{
+    margin: 0 0 10px 50px;
+    line-height: 25px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.course__list{
+    margin: 0 0 30px 25px;
+}
+
+.course__text + .course__text{
+    margin-top: 10px;
+}
+
+.course__img{
+    margin-left: 80px;
+    border: 2px solid #C8C38C;
+}
+
+.code{
+    margin-left: -320px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-left: 30px;
+    font-size: 0.9rem;
+    background-color: #E4E0BE;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #736288;
+}
+
+.github{
+    display: flex;
+}
+
+.github__icon{
+    margin-right: 15px;
+}
+
+.rsschool__img{
+    width: 152px;
+    height: 26px;
+}
